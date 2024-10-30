@@ -113,9 +113,20 @@ footer{
 }
 
 @media (max-width: 480px) {
+    main {
+        padding: 0 0;
+    }
+}
+
+@media (max-width: 480px) {
     nav {
         gap: 8px;
     }
+
+    main {
+        padding: 0 0;
+    }
+    
 
     section {
         display: flex;
